@@ -1,0 +1,26 @@
+{
+  "name": "Food",
+  "plural": "people",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "vegetarian": {
+      "type": "string",
+      "required": true
+    },
+    "non-vegetarian": {
+      "type": "string",
+      "required": true
+    },
+    "vegans": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
